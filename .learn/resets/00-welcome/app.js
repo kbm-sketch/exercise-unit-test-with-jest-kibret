@@ -28,5 +28,7 @@ const fromYenToPound = function(valueInYen) {
     return valueInPound;
 }
 
-// Export the function to be used on other files
+// Export the function to be used on other files 
+// (similar to the keyword "export" when using webpack)
+// We include fromEuroToDollar here as well because it needs to be exported
 module.exports = { sum, fromEuroToDollar, fromDollarToYen, fromYenToPound }

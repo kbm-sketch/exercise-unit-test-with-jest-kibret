@@ -11,7 +11,6 @@ test('adds 14 + 9 to equal 23', () => {
 
 test("One euro should be 1.17 dollars", function() {
 
-    // Use the function like its supposed to be used
     const dollars = fromEuroToDollar(3.5);
 
     // If 1 euro is 1.17 dollars, then 3.5 euros should be (3.5 * 1.17)
@@ -25,7 +24,6 @@ test("One euro should be 1.17 dollars", function() {
 
 test("One dollar should be 147.33 yens", function() {
 
-    // Use the function like its supposed to be used
     const yens = fromDollarToYen(4);
 
     // If 1 dollar is 147.33 yens, then 4 dollars should be (4 * 147.33)
@@ -39,7 +37,6 @@ test("One dollar should be 147.33 yens", function() {
 
 test("One yen should be 0.0050 pounds", function() {
 
-    // Use the function like its supposed to be used
     const pounds = fromYenToPound(3.5);
 
     // If 1 yen is 0.0050 pounds, then 3.5 yens should be (3.5 * 0.0050)
